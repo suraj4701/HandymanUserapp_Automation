@@ -1,0 +1,66 @@
+﻿# Node
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+!.env.example
+
+# Test reports and coverage
+allure-results/
+allure-report/
+coverage/
+.nyc_output/
+reports/
+report/
+errorShots/
+.output/
+.wdio/
+.wdio-*/
+wdio-*.json
+junit-*.xml
+mochawesome-report/
+
+# Appium artifacts
+appium.log
+appium-*.log
+
+# Mobile app bundles
+apps/**/*.apk
+*.apk
+*.aab
+*.ipa
+
+# Build artifacts
+build/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# Caches and temp
+.cache/
+tmp/
+temp/
+
+# Android/iOS local files
+.gradle/
+*.gradle
+local.properties
+*.keystore
+*.jks
+android/
+ios/

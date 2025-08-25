@@ -1,0 +1,4 @@
+npm init -y
+npm install --save-dev webdriverio
+npm install --save-dev @wdio/appium-service
+npm install dotenv
