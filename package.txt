@@ -2,3 +2,10 @@ npm init -y
 npm install --save-dev webdriverio
 npm install --save-dev @wdio/appium-service
 npm install dotenv
+npm i @wdio/cli --save
+npm i @wdio/local-runner
+npm i @wdio/sync
+npm i @babel/cli --save-dev
+npm i @babel/core --save-dev
+npm i @babel/preset-env --save-dev
+npm i @babel/register --save-dev
