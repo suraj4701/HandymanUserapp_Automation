@@ -9,3 +9,9 @@ npm i @babel/cli --save-dev
 npm i @babel/core --save-dev
 npm i @babel/preset-env --save-dev
 npm i @babel/register --save-dev
+npm  init wdio .
+
+
+
+npm install @wdio/cli
+npx wdio config
