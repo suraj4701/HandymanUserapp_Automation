@@ -56,9 +56,13 @@ exports.config = {
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
-        'appium:deviceName': 'Pixel 8 Pro API 35',
+        'appium:deviceName': process.env.DEVICE_NAME,
         'appium:automationName': 'UiAutomator2',
-        'appium:app': path.join(__dirname, './apps/android/ApiDemos-debug.apk'),
+        "appium:appPackage": "com.iqonic.servicebooking",
+        "appium:appActivity": "com.iqonic.servicebooking.MainActivity",
+        'appium:noReset': true,
+        'appium:autoGrantPermissions': true,
+        'appium:appWaitActivity': '*',
     }],
 
     //
