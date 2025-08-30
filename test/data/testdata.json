@@ -1,0 +1,46 @@
+{
+    "users": [
+        {
+            "firstname": "Peter",
+            "lastname": "Jones",
+            "username": "peterj",
+            "email": "peterjones@gmail.com",
+            "contactnumber": "7412589630",
+            "password": "testpassword"
+        },
+        {
+            "firstname": "Sarah",
+            "lastname": "Smith",
+            "username": "sarahs",
+            "email": "sarahsmith@gmail.com",
+            "contactnumber": "9876543210",
+            "password": "testpass456"
+        },
+        {
+            "firstname": "Mike",
+            "lastname": "Johnson",
+            "username": "mikej",
+            "email": "mikejohnson@gmail.com",
+            "contactnumber": "5551234567",
+            "password": "testpass789"
+        }
+    ],
+    "testScenarios": {
+        "validSignup": {
+            "firstname": "John",
+            "lastname": "Doe",
+            "username": "johndoe",
+            "email": "johndoe@test.com",
+            "contactnumber": "1234567890",
+            "password": "TestPass123!"
+        },
+        "invalidSignup": {
+            "firstname": "",
+            "lastname": "",
+            "username": "",
+            "email": "invalid-email",
+            "contactnumber": "123",
+            "password": "weak"
+        }
+    }
+}
